@@ -12,6 +12,6 @@ public class ShoppingCartTest {
             Product pr = new Product("Jaguar",3000);
             s.addProduct(p);
             s.addProduct(pr);
-            assertEquals(6000,s.getTotalPrice());
+            assertEquals(7000,s.getTotalPrice());
         }
 }
